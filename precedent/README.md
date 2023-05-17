@@ -4,4 +4,4 @@
 downlad_precedent.pyを実行することで収集できる。
 pdf_filesフォルダが作成され、その中に収集した判例のpdfが保存される。  
   
-その後、pdfファイルだと扱いづらいため、pdfファイルをtxtファイルに変換するために、convert_pdf_to_text.pyを使う。text_filesフォルダが作成され、その中の出力される。
+その後、pdfファイルだと扱いづらいため、pdfファイルをtxtファイルに変換するために、convert_pdf_to_text.pyを使う。text_filesフォルダが作成され、その中にテキストファイルに変換された判例データが出力される。
