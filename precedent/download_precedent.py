@@ -10,6 +10,8 @@ import requests
 from bs4 import BeautifulSoup
 
 division = 1 # 民事:1, 刑事:2
+list_dict = {1:"総合", 2:"最高裁判所", 3:"高等裁判所", 4:"下級裁判所", 5:"行政事件", 6:"労働事件", 7:"知的財産"}
+search_list = [3] # list_dictに対応 [int]
 search_gengo = ["令和", "平成", "昭和"]
 output_dir = './pdf_files/'
 precedent_set = set() # 判例が重複しないようにする
